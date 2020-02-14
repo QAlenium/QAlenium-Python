@@ -1,16 +1,14 @@
-# Python CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-python/ for more details
-#
 version: 2.1
+
+orbs:
+  slack: circleci/slack@3.4.2
+
 jobs:
-
   build:
-
     docker:
       - image: circleci/python:latest
 
-    working_directory: ~/QAlenium-Python
+    working_directory: ~/Automation-Python
 
     steps:
       - checkout
@@ -26,7 +24,6 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-
       - save_cache:
           paths:
             - ./venv
@@ -37,7 +34,6 @@ jobs:
           command: |
             . venv/bin/activate
             python ./src/br/com/framework/testing/test.py
-
       - store_artifacts:
           path: test-reports
           destination: test-reports
