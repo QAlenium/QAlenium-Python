@@ -6,38 +6,12 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/python:latest
+      - image: 'node:latest'
 
-    working_directory: ~/Automation-Python
+    working_directory: ~/QAlenium-Python
 
     steps:
       - checkout
-
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "requirements.txt" }}
-            - v1-dependencies-
-
-      - run:
-          name: install dependencies
-          command: |
-            python3 -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
-      - save_cache:
-          paths:
-            - ./venv
-          key: v1-dependencies-{{ checksum "requirements.txt" }}
-
-      - run:
-          name: run tests
-          command: |
-            . venv/bin/activate
-            python ./src/br/com/framework/testing/test.py
-      - store_artifacts:
-          path: test-reports
-          destination: test-reports
-          
       - sonarcloud/scan
 orbs:
   sonarcloud: sonarsource/sonarcloud@1.0.1
