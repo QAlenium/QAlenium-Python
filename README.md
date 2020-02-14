@@ -1,12 +1,12 @@
 # Framework de automação de testes em Python
 A powerful & easy to use Test Automation Framework
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Python-Automation&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Python-Automation)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Python-Automation&metric=ncloc)](https://sonarcloud.io/dashboard?id=kaapiel_Python-Automation)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Python-Automation&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Python-Automation)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Python-Automation&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Python-Automation)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Python-Automation&metric=security_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Python-Automation)
-![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Python-Automation/master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Python&metric=alert_status)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Python)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Python&metric=ncloc)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Python)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Python&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Python)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Python&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Python)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Python&metric=security_rating)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Python)
+![CircleCI](https://img.shields.io/circleci/build/github/QAlenium/QAlenium-Python/master)
 
 
 ## Table of Contents
