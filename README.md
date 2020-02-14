@@ -1,4 +1,4 @@
-# Python Automation
+# Framework de automação de testes em Python
 A powerful & easy to use Test Automation Framework
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Python-Automation&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Python-Automation)
@@ -7,7 +7,6 @@ A powerful & easy to use Test Automation Framework
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Python-Automation&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Python-Automation)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Python-Automation&metric=security_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Python-Automation)
 ![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Python-Automation/master)
-[![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
 
 
 ## Table of Contents
