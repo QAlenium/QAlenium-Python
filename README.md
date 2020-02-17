@@ -8,6 +8,7 @@ A powerful & easy to use Test Automation Framework
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Python&metric=security_rating)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Python)
 ![CircleCI](https://img.shields.io/circleci/build/github/QAlenium/QAlenium-Python/master)
 
+# Entre em nosso canal do Slack! https://qalenium.slack.com/
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
