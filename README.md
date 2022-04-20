@@ -1,5 +1,9 @@
-# Framework de automação de testes em Python
+# Python automated Tests framework
 A powerful & easy to use Test Automation Framework
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/QAlenium/QAlenium-raw/main/python/python-mobile-web.gif" width="600" height="300"/>
+</div>
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Python&metric=alert_status)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Python)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Python&metric=ncloc)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Python)
