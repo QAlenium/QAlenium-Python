@@ -1,1 +1,2 @@
-
+sonar.projectKey = QAlenium_QAlenium-Python
+sonar.organization = qalenium
