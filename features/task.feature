@@ -5,9 +5,9 @@ Feature: Task creation
   So I can manage my tasks
 
   Background: User logs in into the ToDo App
-    Given I have the endpoint "https://qa-test.avenuecode.io/"
-    And I have the user email "gabriel_aguido@hotmail.com"
-    And I have the user password "Quality2022"
+    Given I have the endpoint "https://website/"
+    And I have the user email "email@provider.com"
+    And I have the user password "password"
     Then I should be able to login
 
   Scenario: Create task
