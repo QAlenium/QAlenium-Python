@@ -1,1 +1,5 @@
-selenium
+selenium~=4.3.0
+behave~=1.2.6
+webdriver-manager
+selenium-page-factory
+pyshadow
